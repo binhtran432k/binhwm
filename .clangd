@@ -1,0 +1,16 @@
+CompileFlags:
+  Add:
+    [
+      -xc,
+      -I/usr/X11R6/include,
+      -I/usr/include/freetype2,
+      -L/usr/X11R6/lib,
+      -lX11,
+      -DXINERAMA,
+      -lfontconfig,
+      -lXft,
+      -D_DEFAULT_SOURCE,
+      -D_BSD_SOURCE,
+      -D_XOPEN_SOURCE=700L,
+      -DVERSION="Unknown",
+    ]

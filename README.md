@@ -1,12 +1,18 @@
 # dwm - dynamic window manager
 
-dwm is an extremely fast, small, and dynamic window manager for X.
+<!--toc:start-->
+- [dwm - dynamic window manager](#dwm-dynamic-window-manager)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Running dwm](#running-dwm)
+  - [Configuration](#configuration)
+<!--toc:end-->
 
+dwm is an extremely fast, small, and dynamic window manager for X.
 
 ## Requirements
 
 In order to build dwm you need the Xlib header files.
-
 
 ## Installation
 
@@ -18,9 +24,7 @@ necessary as root):
 
 ```bash
 make clean install
-
 ```
-
 
 ## Running dwm
 
